@@ -13,7 +13,7 @@ Tasks description:
 4. In this code, the verification of the entered login (email) and password is carried out, in accordance with the task ( https://disk.yandex.com/i/9xHWqAFvTiEERA ) (In Russian)
 5. Work with magick method __str__ (task: https://disk.yandex.com/i/jVGeeS0zAqvYhw)
 5.2 Task : https://disk.yandex.com/i/34djUjwUnvZsTQ
-
+6. Task: https://disk.yandex.com/i/eiN-yuj1EZ8otg
 
 
 
