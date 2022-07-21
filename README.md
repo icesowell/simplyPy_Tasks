@@ -16,6 +16,6 @@ Tasks description:
 6. Task: https://disk.yandex.com/i/eiN-yuj1EZ8otg
 7. Task: https://disk.yandex.com/i/0VvEbjVtyLxDhA
 7.2 Realization of comparison functions by means of the decorator fufunctools @total_ordering
-
+8.1-8.2 Demonstration magic method __bool__ on practic
 
 ![image](https://user-images.githubusercontent.com/108310900/179837148-345762ed-b457-4d3d-ac72-794f94b877c9.png)
