@@ -5,7 +5,8 @@ This repository contains various tasks with the use of OOP, as well as functiona
 
 
 Tasks description:
-_1. Calculation of the point coordinate \n
+
+_1. Calculation of the point coordinate 
 _2. Stack on the LIFO principle
 _3. The following task is given (in Russian) (https://disk.yandex.com/i/Q33984guIDMLGA)
 _4. In this code, the verification of the entered login (email) and password is carried out, in accordance with the task ( https://disk.yandex.com/i/9xHWqAFvTiEERA ) (In Russian)
