@@ -19,5 +19,5 @@ Tasks description:
 8.1-8.2 Demonstration magic method __bool__ on practic
 9.1 Task: https://disk.yandex.com/i/XJAJFuHiJ0JGVQ
 9.2 Task: https://disk.yandex.com/i/td9y4v7o-Lj4HQ
-
+10. Task: https://disk.yandex.com/i/eewm7UfNoqk7yQ
 ![image](https://user-images.githubusercontent.com/108310900/179837148-345762ed-b457-4d3d-ac72-794f94b877c9.png)
