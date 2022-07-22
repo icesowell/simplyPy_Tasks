@@ -5,7 +5,6 @@ This repository contains various tasks with the use of OOP, as well as functiona
 
 
 Tasks description:
-
 1. Calculation of the point coordinate
 2. Stack on the LIFO principle
 3. The following task is given (in Russian) (https://disk.yandex.com/i/Q33984guIDMLGA)
