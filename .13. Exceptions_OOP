@@ -1,0 +1,52 @@
+class Wallet:
+    def __init__(self, currency, balance):
+        self._balance = balance
+        if not isinstance(currency, str):
+            raise TypeError('Неверный тип валюты')
+        elif len(currency) != 3:
+            raise NameError('Неверная длинна названия валюты')
+        elif not currency.isupper():
+            raise ValueError('Строка должна состоять только из заглавных букв')
+        self.currency = currency
+
+    def __eq__(self, other):
+        if isinstance(other, Wallet):
+            if not self.currency == other.currency:
+                raise ValueError('Нельзя сравнить разные валюты')
+        else:
+            raise TypeError(f'Wallet не поддерживает сравнение с {other}')
+        return self._balance == other._balance
+
+    def __add__(self, other):
+        if isinstance(other, Wallet):
+            if not self.currency == other.currency:
+                raise ValueError('Данная операция запрещена')
+        else:
+            raise ValueError('Данная операция запрещена')
+        return Wallet(self.currency, self._balance + other._balance)
+
+    def __sub__(self, other):
+        if isinstance(other, Wallet):
+            if not self.currency == other.currency:
+                raise ValueError('Данная операция запрещена')
+        else:
+            raise ValueError('Данная операция запрещена')
+        return Wallet(self.currency, self._balance - other._balance)
+
+'''
+test 
+
+wall1 = Wallet('USD', 50)
+wall2 = Wallet('RUB', 100)
+wall3 = Wallet('RUB', 150)
+# wall4 = Wallet(12, 150)
+# wall5 = Wallet('qwwert', 150)
+# wall6 = Wallet('abc', 150)
+print(wall2 == wall3)
+# print(wall2==100)
+# print(wall2 == wall1)
+wall7 = wall2 + wall3
+print(wall7.currency, wall7._balance)
+#wall7+45
+
+'''
